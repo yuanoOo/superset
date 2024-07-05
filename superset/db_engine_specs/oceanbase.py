@@ -72,7 +72,7 @@ class MAP(TypeEngine):
 
 class OceanBaseEngineSpec(MySQLEngineSpec):
     engine = "oceanbase"
-    engine_aliases = {"oceanbase", "oceanbase_py"}
+    engine_aliases = {"oceanbase"}
     engine_name = "OceanBase"
     max_column_name_length = 128
     default_driver = "oceanbase"
